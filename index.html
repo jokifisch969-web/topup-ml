@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+    <title>ML Top Up Store</title>
+      <link rel="stylesheet" href="style.css">
+      </head>
+      <body>
+
+      <header class="navbar">
+        <div class="logo">ML<span>STORE</span></div>
+          <nav>
+              <a href="#topup">Top Up</a>
+                  <a href="#produk">Produk</a>
+                      <a href="#footer">Kontak</a>
+                        </nav>
+                        </header>
+
+                        <section class="banner">
+                          <div class="banner-content">
+                              <h1>TOP UP MOBILE LEGENDS</h1>
+                                  <p>Proses Cepat • Aman • 24 Jam</p>
+                                      <button onclick="scrollToTopup()">Top Up Sekarang</button>
+                                        </div>
+                                        </section>
+
+                                        <section id="topup" class="topup">
+                                          <h2>Masukkan Data Akun</h2>
+
+                                            <div class="form-group">
+                                                <input type="text" id="userid" placeholder="User ID">
+                                                    <input type="text" id="server" placeholder="Server ID">
+                                                      </div>
+
+                                                        <h2 id="produk">Pilih Diamond</h2>
+                                                          <div class="produk">
+                                                              <div class="card" onclick="pilihProduk(this, '86 Diamond')">86 Diamond<br><span>Rp 20.000</span></div>
+                                                                  <div class="card" onclick="pilihProduk(this, '172 Diamond')">172 Diamond<br><span>Rp 38.000</span></div>
+                                                                      <div class="card" onclick="pilihProduk(this, '257 Diamond')">257 Diamond<br><span>Rp 55.000</span></div>
+                                                                          <div class="card" onclick="pilihProduk(this, '344 Diamond')">344 Diamond<br><span>Rp 72.000</span></div>
+                                                                            </div>
+
+                                                                              <button class="checkout" onclick="checkout()">Lanjutkan Pembayaran</button>
+                                                                              </section>
+
+                                                                              <footer id="footer">
+                                                                                <p>© 2026 MLSTORE • Top Up Mobile Legends Resmi</p>
+                                                                                </footer>
+
+                                                                                <script src="script.js"></script>
+                                                                                </body>
+                                                                                </html>

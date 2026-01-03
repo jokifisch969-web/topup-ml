@@ -1,0 +1,165 @@
+* {
+      margin: 0;
+        padding: 0;
+          box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+      background: #0e0e12;
+        color: #fff;
+}
+
+/* Navbar */
+.navbar {
+      display: flex;
+        justify-content: space-between;
+          padding: 15px 40px;
+            background: #111;
+              position: sticky;
+                top: 0;
+}
+
+.logo {
+      font-size: 22px;
+        font-weight: bold;
+}
+
+.logo span {
+      color: #ffcc00;
+}
+
+.navbar a {
+      margin-left: 20px;
+        text-decoration: none;
+          color: #ccc;
+}
+
+.navbar a:hover {
+      color: #ffcc00;
+}
+
+/* Banner */
+.banner {
+      height: 80vh;
+        background: linear-gradient(to right, rgba(0,0,0,.8), rgba(0,0,0,.3)),
+                      url('assets/ml-banner.jpg') center/cover no-repeat;
+                        display: flex;
+                          align-items: center;
+                            padding: 40px;
+}
+
+.banner-content h1 {
+      font-size: 48px;
+}
+
+.banner-content p {
+      margin: 15px 0;
+        font-size: 18px;
+          color: #ddd;
+}
+
+.banner-content button {
+      padding: 12px 30px;
+        border: none;
+          background: #ffcc00;
+            color: #000;
+              font-weight: bold;
+                cursor: pointer;
+                  border-radius: 6px;
+}
+
+/* Topup */
+.topup {
+      padding: 60px 40px;
+}
+
+.topup h2 {
+      margin-bottom: 15px;
+}
+
+.form-group {
+      display: flex;
+        gap: 15px;
+          margin-bottom: 30px;
+}
+
+.form-group input {
+      flex: 1;
+        padding: 12px;
+          border-radius: 6px;
+            border: none;
+}
+
+.produk {
+      display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+          gap: 20px;
+}
+
+.card {
+      background: #1a1a22;
+        padding: 20px;
+          border-radius: 10px;
+            text-align: center;
+              cursor: pointer;
+                transition: .3s;
+                  border: 2px solid transparent;
+}
+
+.card span {
+      display: block;
+        margin-top: 8px;
+          color: #ffcc00;
+}
+
+.card:hover {
+      transform: scale(1.05);
+}
+
+.card.active {
+      border-color: #ffcc00;
+}
+
+/* Button */
+.checkout {
+      margin-top: 30px;
+        padding: 14px;
+          width: 100%;
+            border: none;
+              background: #ffcc00;
+                font-size: 18px;
+                  font-weight: bold;
+                    cursor: pointer;
+                      border-radius: 8px;
+}
+
+/* Footer */
+footer {
+      text-align: center;
+        padding: 20px;
+          background: #111;
+            color: #aaa;
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
